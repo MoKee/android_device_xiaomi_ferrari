@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_xiaomi_ferrari",
+    "target_path": "vendor/xiaomi/ferrari"
+  },
+  {
     "repository": "android_kernel_xiaomi_ferrari",
     "target_path": "kernel/xiaomi/ferrari"
   },
