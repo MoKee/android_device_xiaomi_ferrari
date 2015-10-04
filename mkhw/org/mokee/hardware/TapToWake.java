@@ -18,6 +18,7 @@
 package org.mokee.hardware;
 
 import org.mokee.hardware.util.FileUtils;
+import java.io.File;
 
 public class TapToWake {
 
