@@ -15,6 +15,8 @@
 #
 BOARD_VENDOR := xiaomi
 
+MK_TOOLCHAIN_VARIANT := uber
+
 LOCAL_PATH := device/xiaomi/ferrari
 
 # Include path
