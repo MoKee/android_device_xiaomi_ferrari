@@ -202,3 +202,6 @@ persist.power.useautobrightadj=true
 
 # WiFi
 ro.disableWifiApFirmwareReload=true
+
+# Disable QMI logspam
+persist.data.qmi.adb_logmask=0
