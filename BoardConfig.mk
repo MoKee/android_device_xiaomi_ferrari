@@ -110,6 +110,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 QCOM_BT_USE_SMD_TTY := true
 BLUETOOTH_HCI_USE_MCT := true
+QCOM_BT_USE_BTNV := true
 
 # Camera
 # TO DO - Put correct sensors and support
