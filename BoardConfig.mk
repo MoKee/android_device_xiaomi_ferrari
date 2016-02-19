@@ -70,6 +70,7 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
+WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
 
 # Kernel
 BOARD_DTBTOOL_ARGS                 := -2
@@ -141,9 +142,6 @@ HAVE_ADRENO_SOURCE:= false
 VSYNC_EVENT_PHASE_OFFSET_NS := 7500000
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 5000000
 TARGET_USES_NEW_ION_API := true
-
-# Smoosh all the things
-TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4
 
 # CMHW
 BOARD_HARDWARE_CLASS := device/xiaomi/ferrari/cmhw
