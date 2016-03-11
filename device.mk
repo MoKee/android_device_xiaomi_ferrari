@@ -155,8 +155,6 @@ PRODUCT_PACKAGES += \
 
 # Filesystem
 PRODUCT_PACKAGES += \
-    e2fsck \
-    make_ext4fs \
     setup_fs
 
 # FM
@@ -310,9 +308,6 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
 ifeq ($(BOARD_USES_QCNE),true)
-PRODUCT_PACKAGES += \
-    services-ext \
-    init.cne.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.cne.feature=4
