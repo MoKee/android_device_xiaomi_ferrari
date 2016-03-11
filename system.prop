@@ -209,3 +209,6 @@ ro.com.android.mobiledata=false
 ro.product.manufacturer=Xiaomi
 keyguard.no_require_sim=true
 persist.power.useautobrightadj=true
+
+# WiFi
+ro.disableWifiApFirmwareReload=true
