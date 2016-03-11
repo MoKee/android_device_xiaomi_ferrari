@@ -329,3 +329,6 @@ on property:persist.sys.aries.power_profile=middle
     start thermal-engine
     start perfd
     start power_engine
+
+on property:dev.bootcomplete=1
+    setprop sys.io.scheduler "bfq"  
