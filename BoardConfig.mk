@@ -163,6 +163,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # LOGD
 TARGET_USES_LOGD := false
 
+# Keymaster
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+
 # Malloc
 MALLOC_IMPL := dlmalloc
 
