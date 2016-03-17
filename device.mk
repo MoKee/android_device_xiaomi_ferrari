@@ -200,7 +200,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     camera.msm8916 \
     libstlport \
-    libmm-qcamera
+    libmm-qcamera \
+    Snap
 
 # lights
 PRODUCT_PACKAGES += \
