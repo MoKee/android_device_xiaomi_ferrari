@@ -135,9 +135,6 @@ audio.dolby.ds2.enabled=true
 #reverse engineering
 persist.audio.FFSP.enable=true
 
-# enable usb otg setting
-persist.sys.isUsbOtgEnabled=true
-
 # Enalbe modem fast dormancy function
 persist.env.fastdorm.enabled=true
 persist.radio.data_no_toggle=1
