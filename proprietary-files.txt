@@ -6,6 +6,8 @@ vendor/lib/libfastcvopt.so
 
 # Audio
 etc/firmware/seltech_mono.cnt
+lib/libtinyalsa.so
+lib64/libtinyalsa.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
