@@ -209,3 +209,7 @@ persist.power.useautobrightadj=true
 
 # WiFi
 ro.disableWifiApFirmwareReload=true
+
+# disable all camera debug
+persist.camera.hal.debug.mask=0
+
