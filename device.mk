@@ -303,6 +303,13 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# Misc dependency packages
+PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes \
+    libbson \
+    libnl_2
+
 ifeq ($(BOARD_USES_QCNE),true)
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -311,5 +318,4 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.service.adb.enable=1 \
-    persist.service.debuggable=1 \
-    persist.sys.usb.config=mtp,adb
+    persist.service.debuggable=1
