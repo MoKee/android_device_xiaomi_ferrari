@@ -37,6 +37,22 @@ ro.sf.lcd_density=480
 #
 persist.cne.feature=1
 
+# GPS
+persist.gps.qc_nlp_in_use=0
+ro.gps.agps_provider=1
+persist.loc.nlp_name=com.qualcomm.services.location
+ro.qc.sdk.izat.premium_enabled=1
+ro.qc.sdk.izat.service_mask=0x5
+
+# Network
+persist.data.netmgrd.qos.enable=true
+ro.use_data_netmgrd=true
+ro.data.large_tcp_window_size=true
+
+# Adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+
 #system props for the MM modules
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
@@ -159,7 +175,6 @@ persist.audio.dirac.speaker=true
 
 # ActivityManager optimizations
 ro.config.max_starting_bg=8
-ro.sys.fw.bservice_enable=true
 ro.sys.fw.use_trim_settings=true
 
 # Art
@@ -189,9 +204,7 @@ ro.btconfig.chip=WCN3680B
 persist.sys.ltm_enable=true
 assertdisplay.value=128
 net.bt.name=Android
-persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
-ro.gps.agps_provider=1
 ro.pip.gated=0
 persist.data.qmi.adb_logmask=0
 ro.product.mod_device=ferrari_global
@@ -202,6 +215,8 @@ persist.power.useautobrightadj=true
 
 # WiFi
 ro.disableWifiApFirmwareReload=true
+wifi.interface=wlan0
+wlan.driver.ath=0
 
 # Disable QMI logspam
 persist.data.qmi.adb_logmask=0

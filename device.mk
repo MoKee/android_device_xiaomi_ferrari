@@ -184,13 +184,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/quipc.conf:system/etc/quipc.conf \
     $(LOCAL_PATH)/gps/sap.conf:system/etc/sap.conf
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.gps.qc_nlp_in_use=1 \
-    persist.loc.nlp_name=com.qualcomm.services.location \
-    ro.gps.agps_provider=1 \
-    ro.qc.sdk.izat.premium_enabled=1 \
-    ro.qc.sdk.izat.service_mask=0x5
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8916 \
@@ -237,14 +230,6 @@ PRODUCT_PACKAGES += \
     libqsap_sdk \
     libQWiFiSoftApCfg \
     wcnss_service
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15 \
-    wlan.driver.ath=0 \
-    ro.use_data_netmgrd=true \
-    persist.data.netmgrd.qos.enable=true \
-    ro.data.large_tcp_window_size=true
 
 # IPC router config
 PRODUCT_COPY_FILES += \
@@ -316,7 +301,3 @@ ifeq ($(BOARD_USES_QCNE),true)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.cne.feature=4
 endif
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.service.adb.enable=1 \
-    persist.service.debuggable=1
