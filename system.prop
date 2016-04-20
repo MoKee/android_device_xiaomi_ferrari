@@ -1,4 +1,5 @@
 # Camera
+camera2.portability.force_api=1
 persist.camera.cpp.duplication=false
 persist.camera.hal.debug.mask=0
 
