@@ -47,16 +47,10 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     init.class_main.sh \
     init.mdm.sh \
-    init.qcom.class_core.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.factory.sh \
-    init.qcom.sh \
-    init.qcom.syspart_fixup.sh \
-    init.qcom.usb.sh
+    init.qcom.factory.sh
 
 # QCOM Config Script
 PRODUCT_PACKAGES += \
-    hsic.control.bt.sh \
     init.qcom.bt.sh \
     init.qcom.fm.sh \
     init.qcom.post_boot.sh \
