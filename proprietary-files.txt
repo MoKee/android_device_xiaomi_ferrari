@@ -520,7 +520,7 @@ vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
 # Postprocessing
-bin/mm-pp-daemon
+vendor/bin/mm-pp-daemon
 vendor/lib64/libdisp-aba.so
 -vendor/lib64/libmm-abl.so
 vendor/lib64/libmm-abl-oem.so
