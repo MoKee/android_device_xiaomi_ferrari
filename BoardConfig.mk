@@ -165,9 +165,6 @@ TARGET_USES_LOGD := false
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
-# Malloc
-MALLOC_IMPL := dlmalloc
-
 # Partition
 TARGET_USERIMAGES_USE_EXT4          := true
 BOARD_BOOTIMAGE_PARTITION_SIZE      := 0x02000000
