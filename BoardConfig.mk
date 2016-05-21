@@ -89,10 +89,10 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 else
-TARGET_KERNEL_CONFIG := cyanogenmod_ferrari_defconfig
+TARGET_KERNEL_CONFIG := mokee_ferrari_defconfig
 endif
 ifneq ($(TARGET_BUILD_VARIANT),user)
-TARGET_KERNEL_ADDITIONAL_CONFIG := cyanogenmod_debug_config
+TARGET_KERNEL_ADDITIONAL_CONFIG := mokee_debug_config
 endif
 
 # Audio
@@ -143,8 +143,8 @@ VSYNC_EVENT_PHASE_OFFSET_NS := 7500000
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 5000000
 TARGET_USES_NEW_ION_API := true
 
-# CMHW
-BOARD_HARDWARE_CLASS := device/xiaomi/ferrari/cmhw
+# MKHW
+BOARD_HARDWARE_CLASS := device/xiaomi/ferrari/mkhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/wakeup_mode"
 
 # FM
