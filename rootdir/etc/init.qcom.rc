@@ -336,7 +336,7 @@ on boot
     chown system system /sys/class/leds/green/blink
     chown system system /sys/class/leds/blue/blink
     
-    ## cmhw permissions
+    ## mkhw permissions
     # key disabler
     chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/disable_keys
 
