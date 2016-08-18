@@ -172,8 +172,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8916 \
-    libstlport \
-    libmm-qcamera
+    libstlport
 
 # Gello
 PRODUCT_PACKAGES += \
