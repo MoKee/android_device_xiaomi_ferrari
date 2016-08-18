@@ -262,14 +262,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
 
-# Proprietery Firmware
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
-    $(LOCAL_PATH)/rootdir/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
-    $(LOCAL_PATH)/rootdir/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    $(LOCAL_PATH)/rootdir/etc/calib.cfg:system/etc/calib.cfg \
-    $(LOCAL_PATH)/rootdir/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
